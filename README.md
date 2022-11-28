@@ -47,7 +47,6 @@ Ngrok ini cuma ubah server lokal `127.0.0` jadi server publik, bisa dibilang pen
 * trus kirim kode joinnya *bisa dilliat di twilio, Sandbox Participants yg **join...** *
 * coba chat botnya lagi, klo direspon `helow` brarti berjalanmi kode yg file coba.py
 ## running main.py
-* *samaji caranya di atas*
-* di terminal, tekan `ctrl+c` untuk hentikan program `python coba.py` yg tadi
+* *samaji caranya di atas*, di terminal, tekan `ctrl+c` untuk hentikan program `python coba.py` yg tadi
 * trus ketik `python main.py`, outputnya adami `Running on http://127.0.0.1:5000/`
 * coba chat botnya sesuai tag/patterns di folder `data/intents.json`
