@@ -18,9 +18,9 @@ Ngrok ini cuma ubah server lokal `127.0.0` jadi server publik, bisa dibilang pen
 
 # Cara download kodenya
 * buka file explorer, pergi ke folder yang mau ditempati untuk dowload kodenya, trus copy pathnya (misal: `C:\Users\Dhea Gita\Desktop\`)
-* buka cmd, trus ketik `cd (paste path yg tadi)` enter. Contoh: `cd C:\Users\Dhea Gita\Desktop\`
+* buka cmd, trus ketik `cd (paste path yg tadi)` *enter*. Contoh: `cd C:\Users\Dhea Gita\Desktop\`
 * di repo github ini, klik tombol hijau `code`, trus copy urlnya
-* kembali ke cmd tadi, trus ketik `git clone (paste url git yg tadi)` enter
+* kembali ke cmd tadi, trus ketik `git clone (paste url git yg tadi)` *enter*
 * wait *a few moments later...*
 * ...
 * sudah?
@@ -35,7 +35,10 @@ Ngrok ini cuma ubah server lokal `127.0.0` jadi server publik, bisa dibilang pen
 
 # Cara tes botnya bekerja ato tidak
 ## running coba.py
-* buka terminal vscode nya, trus ketik `python coba.py`
+* install library nya, buka terminal vscode, trus ketik `pip install flask numpy pandas scikit-learn`
+* klo error, coba install satu-satu, misal `pip install flask`
+* klo masih error, coba kirim di gb or *tanya stackoverflow :"*
+* klo berhasilmi, ketik `python coba.py` *enter*
 * kalo outputnya adami `Running on http://127.0.0.1:5000/` brarti berjalanmi itu
 * buka cmd, ketik `ngrok http 5000`, trus copy link di forwading misal `https://c212-103-105-32-12.ap.ngrok.io`
 * WARNING: link yg di ngrok bisa saja berubah pas dijalankan ulang ngroknya
