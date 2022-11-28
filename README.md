@@ -45,5 +45,5 @@ Ngrok ini cuma ubah server lokal `127.0.0` jadi server publik, bisa dibilang pen
 ## running main.py
 * *samaji caranya di atas*
 * di terminal, tekan `ctrl+c` untuk hentikan program `python coba.py` yg tadi
-* trus ketik `python main.py`, outputnya adami `Running on http://127.0.0.1:5000/
+* trus ketik `python main.py`, outputnya adami `Running on http://127.0.0.1:5000/`
 * coba chat botnya sesuai tag/patterns di folder `data/intents.json`
