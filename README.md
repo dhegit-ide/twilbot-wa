@@ -29,7 +29,7 @@ Ngrok ini cuma ubah server lokal `127.0.0` jadi server publik, bisa dibilang pen
 * kalo adami folder `twilbot-wa`, buka foldernya di vscode
 * isinya itu ada `data`, `util`, main.py, coba.py
 * folder `data` itu tempat skrip dialognya
-* folder `util` itu program supaya bisa digunakan datanya ke python
+* folder `util` itu program supaya bisa digunakan `data/intents.json` di `main.py`
 * `main.py` itu file utama untuk buat fitur"nya
 * `coba.py` itu file untuk tes awal botnya, krna di kode baris 6-12 dan 14-15 hampirji sama di `main.py` kode baris 11-19 dan 61-62. *Kira-kira apa bedanya :"*
 
