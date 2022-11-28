@@ -7,4 +7,4 @@
 * ...
 * sudah?
 * coba liat di file explorer ke lokasi download foldernya
-* kalo adami folder `twilbot-wa`, congrats!!! *kerjami kode bagianmu :)*
+* kalo adami folder `twilbot-wa`, *selamat mengerjakan tugas bagianmu :)*
