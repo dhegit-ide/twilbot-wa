@@ -1,6 +1,6 @@
 # Persiapan
 ## Setup ngrok
-Ngrok ini cuma ubah server lokal `127.0.0` jadi server publik, bisa dibilang pengganti domain, tpi kyknya nda auto run ki programnya, misal dihentikanmi eksekusi programnya nnti bakal nda berkerja botnya juga. Itumi butuh ki **domain + hosting**, domain itu urlnya, hosting itu tempat upload kode programnya *CMIIW* supaya auto run programnya.
+Ngrok ini cuma ubah server lokal `127.0.0` jadi server publik, bisa dibilang pengganti domain, tpi kyknya nda auto run ki programnya, misal dihentikanmi eksekusi programnya nnti bakal nda berkerja botnya juga. Itumi butuh ki **domain + hosting**, domain itu urlnya, hosting itu tempat upload kode programnya supaya auto run programnya *CMIIW*.
 * download ngrok di `https://ngrok.com/download`, trs unzip, trs simpan foldernya di `C:\`
 * buka folder ngrok, kalo isinya cuma `ngrok.exe` *brarti cocokmi itu*
 * copy path foldernya. Contoh: `C:\ngrok-v3-stable-windows-amd64`
