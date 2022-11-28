@@ -21,8 +21,7 @@ Ngrok ini cuma ubah server lokal `127.0.0` jadi server publik, bisa dibilang pen
 * ...
 * sudah?
 * coba liat di file explorer ke lokasi download foldernya
-
-# Struktur folder
+## Struktur folder
 * kalo adami folder `twilbot-wa`, buka foldernya di vscode
 * isinya itu ada `data`, `util`, main.py, coba.py
 * folder `data` itu tempat skrip dialognya
