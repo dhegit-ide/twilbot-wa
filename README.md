@@ -1,3 +1,7 @@
+# Persyaratan untuk jalankan kodenya
+* sudah terinstall python dan setup environmentnya *silakan cari di yt tutorialnya :'*
+* sambungkan akun github ke vscode *di vscode, kiri bawah klik ikon user trs `sign in` trs pilih github*
+
 # Persiapan
 ## Setup ngrok
 Ngrok ini cuma ubah server lokal `127.0.0` jadi server publik, bisa dibilang pengganti domain, tpi kyknya nda auto run ki programnya, misal dihentikanmi eksekusi programnya nnti bakal nda berkerja botnya juga. Itumi butuh ki **domain + hosting**, domain itu urlnya, hosting itu tempat upload kode programnya supaya auto run programnya *CMIIW*.
