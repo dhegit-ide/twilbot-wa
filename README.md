@@ -1,3 +1,9 @@
+# Referensi kode kalo mau tau penjelasan lengkapnya
+* https://www.pragnakalp.com/create-whatsapp-bot-with-twilio-using-python-tutorial-with-examples/
+* https://youtu.be/sotu6YqPoY0
+* https://youtu.be/hW3zfd0mIfw
+
+
 # Persyaratan untuk jalankan kodenya
 * sudah terinstall python dan setup environmentnya *silakan cari di yt tutorialnya :'*
 * sambungkan akun github ke vscode *di vscode, kiri bawah klik ikon user trs `sign in` trs pilih github*
