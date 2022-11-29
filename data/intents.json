@@ -159,6 +159,21 @@
             "tag": "salam islam",
             "patterns": ["assalamualaikum", "assalamu alaikum"],
             "responses": ["walaikumsalam"]
+        },
+        {
+            "tag" : "sedih",
+            "patterns" :[
+                "sedih",
+                "saya sedih",
+                "aku sedih",
+                "aku lagi sedih"
+            ],
+            "responses" :[
+                "jangan sedih",
+                "ottoke",
+                "aduh gimana ya...",
+                "jadi ikut sedih :("
+            ]
         }
     ]
 }
