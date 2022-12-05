@@ -1,15 +1,18 @@
 import string
 import pickle
 import numpy as np
-from flask import Flask, request
+from flask import Flask, request, redirect
 from twilio.twiml.messaging_response import MessagingResponse
 from sklearn.pipeline import make_pipeline
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.naive_bayes import MultinomialNB
 from sklearn.ensemble import RandomForestClassifier
 from util import JSONParser
 
 app = Flask(__name__)  
+
+@app.route("/")
+def hello_world():
+    return redirect('https://wa.me/14155238886?text=join%20butter-journey', code=302)
 
 @app.route("/wasms", methods=['POST'])
 def bot():
@@ -53,6 +56,10 @@ def bot():
 
     # train
     pipeline.fit(df.text_input_prep, df.intents)
+
+    # save model
+    with open("model_chatbot_pkl", "wb") as model_file:
+        pickle.dump(pipeline, model_file)
 
     # END
 
