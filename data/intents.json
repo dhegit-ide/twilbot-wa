@@ -66,22 +66,22 @@
             "patterns": [
                 "Bagaimana kabar twilbot??",
                 "Bagaimana kabar twilbot hari ini?",
-                "Twilboat baik?",
-                "Twilboat apa kabar?",
+                "Twilbot baik?",
+                "Twilbot apa kabar?",
                 "Twilbot baik-baik aja kan?",
                 "How are you?",
                 "How are you today?"
             ],
             "responses": [
-                "Kabar twilboat baik",
+                "Kabar twilbot baik",
                 "Baik kawan",
-                "Twilboat baik-baik aja",
-                "Kabar twilboat selalu sehat dan baik dong",
-                "Kabar twilboat baik-baik aja kawan, kalau kabar kamu bagaimana?"
-                "Twilboat baik, kalau kabar kamu?"
+                "Twilbot baik-baik aja",
+                "Kabar twilbot selalu sehat dan baik dong",
+                "Kabar twilbot baik-baik aja kawan, kalau kabar kamu bagaimana?",
+                "Twilbot baik, kalau kabar kamu?",
                 "Baik, kamu bagaimana?",
-                "Twilboat baik dan lagi bahagia, bagaimana dengan kawan?"
-                "hm..,kamu?"
+                "Twilbot baik dan lagi bahagia, bagaimana dengan kawan?",
+                "hm..,kamu?",
                 "I'm fine, and you?",
                 "I'm good",
                 "I feel blue"
@@ -128,10 +128,10 @@
                 "Namaku Twilbot, salam kenal kak!",
                 "Halo, aku Twilbot!",
                 "Kenalin, aku Twilbot!",
-                "Nama twilboat, Twilboat",
-                "Hi, ini Twilboat",
-                "Hai kak, Twilboat disini",
-                "Hi, I'm Twilboat"
+                "Nama twilbot, Twilbot",
+                "Hi, ini Twilbot",
+                "Hai kak, Twilbot disini",
+                "Hi, I'm Twilbot"
             ]
         },
         {
@@ -151,13 +151,31 @@
         },
         {
             "tag": "pujian",
-            "patterns": ["keren", "bagus", "mantap", "sugoi", "daebak", "amazing"],
-            "responses": ["yoi", "wow, terimakasih pujiannya", "uwuw", ":v", "thanks", "sure"]
+            "patterns": [
+                "keren",
+                "bagus",
+                "mantap",
+                "sugoi",
+                "daebak",
+                "amazing"
+            ],
+            "responses": [
+                "yoi",
+                "wow, terimakasih pujiannya",
+                "uwuw",
+                ":v",
+                "thanks",
+                "sure"
+            ]
         },
         {
             "tag": "resep",
             "patterns": ["resep krabby patty"],
-            "responses": ["tunggu sebentar, saya tanyakan pada tuan krab", "Yah, resepnya masih rahasia", "Tuan krab tidak mau kasih resepnya kawan"]
+            "responses": [
+                "tunggu sebentar, saya tanyakan pada tuan krab",
+                "Yah, resepnya masih rahasia",
+                "Tuan krab tidak mau kasih resepnya kawan"
+            ]
         },
         {
             "tag": "tanya",
@@ -167,7 +185,13 @@
         {
             "tag": "lapar",
             "patterns": ["lapar", "saya lapar", "aku lapar"],
-            "responses": ["makan, nanti kamu sakit", "kenapa ga makan?", "mau apa?", "makan sana", "kamu ingin makan apa?"]
+            "responses": [
+                "makan, nanti kamu sakit",
+                "kenapa ga makan?",
+                "mau apa?",
+                "makan sana",
+                "kamu ingin makan apa?"
+            ]
         },
         {
             "tag": "malas",
@@ -200,23 +224,25 @@
         },
         {
             "tag": "salam islam",
-            "patterns": ["assalamualaikum", "assalamu'alaikum", "Assalamu'alaykum warahmatullahi wa barakatuh"],
-            "responses": ["wa'alaikumsalam", "Wa'alaykumussalam warahmatullahi wa barakatuh"]
+            "patterns": [
+                "assalamualaikum",
+                "assalamu'alaikum",
+                "Assalamu'alaykum warahmatullahi wa barakatuh"
+            ],
+            "responses": [
+                "wa'alaikumsalam",
+                "Wa'alaykumussalam warahmatullahi wa barakatuh"
+            ]
         },
         {
-            "tag" : "sedih",
-            "patterns" :[
-                "sedih",
-                "saya sedih",
-                "aku sedih",
-                "aku lagi sedih"
-            ],
-            "responses" :[
+            "tag": "sedih",
+            "patterns": ["sedih", "saya sedih", "aku sedih", "aku lagi sedih"],
+            "responses": [
                 "jangan sedih",
                 "ottoke",
                 "aduh gimana ya...",
                 "jadi ikut sedih :(",
-                "La Tahzan Innallaha Ma'ana"
+                "La Tahzan Innallaha Ma'ana",
                 "Janganlah engkau bersedih, sesungguhnya Allah bersama kita",
                 "Mau jalan-jalan?",
                 "Mau makan coklat?",
@@ -227,18 +253,14 @@
             ]
         },
         {
-            "tag" : "marah",
-            "patterns" : [
-                "marah",
-                "saya marah",
-                "aku marah"
-            ],
-            "responses" :[
+            "tag": "marah",
+            "patterns": ["marah", "saya marah", "aku marah"],
+            "responses": [
                 "maaf",
                 "jangan marah",
                 "kamu jangan marah",
-                "jangan marah lagi ya"
-                "Jangan kamu marah, maka kamu akan masuk Surga - (HR Ath-Thabrani)"
+                "jangan marah lagi ya",
+                "Jangan kamu marah, maka kamu akan masuk Surga - (HR Ath-Thabrani)",
                 "Duduklah, tarik nafas dan buang sampai kamu merasa tenang",
                 "Udah yah, tenang",
                 "Kalau kamu mau marah, marah saja tapi jangan sampai kamu mengeluarkan kata-kata atau melakukan hal yang kamu sesali kemudian",
@@ -246,8 +268,8 @@
             ]
         },
         {
-            "tag" : "umpatan",
-            "patterns" : [
+            "tag": "umpatan",
+            "patterns": [
                 "bodoh",
                 "dasar bodoh",
                 "bego",
@@ -256,14 +278,14 @@
                 "babi",
                 "asu"
             ],
-            "responses" :[
+            "responses": [
                 "sangat tidak sopan",
                 "sangat tidak ramah bintang kecil",
                 "sangat tidak ramah",
                 "Kasarrrr",
                 "Jangan gitu nanti terluka hatiku",
                 "Itu kamu xixi",
-                "Jagalah lidahmu wahai manusia, jangan sampai ia mematukmu karena ia adalah ular”,
+                "Jagalah lidahmu wahai manusia, jangan sampai ia mematukmu karena ia adalah ular",
                 "Jika kamu tidak bisa berkata baik maka diamlah",
                 "Saya sedih",
                 "Apa kabar dengan hatimu?",
@@ -272,15 +294,15 @@
             ]
         },
         {
-            "tag" : "tugas",
-            "patterns" :[
+            "tag": "tugas",
+            "patterns": [
                 "banyak sekali tugasku",
                 "kerjain tugasku dong",
                 "kerjakan tugasku",
                 "bantu aku kerja tugas",
                 "bantu saya kerja tugas"
             ],
-            "responses" :[
+            "responses": [
                 "hmmm...",
                 "sebentar saya cuci piring dulu",
                 "waduh",
@@ -292,8 +314,8 @@
             ]
         },
         {
-            "tag" : "bahagia",
-            "patterns" :[
+            "tag": "bahagia",
+            "patterns": [
                 "saya bahagia",
                 "aku bahagia",
                 "saya senang",
@@ -304,7 +326,7 @@
                 "saya bahagia sekali",
                 "saya senang sekali"
             ],
-            "responses" :[
+            "responses": [
                 "wiihhhh~",
                 "ikut bahagia juga",
                 "bahagiamu adalah bahagiaku",
@@ -314,15 +336,15 @@
             ]
         },
         {
-            "tag" : "ngantuk",
-            "patterns" : [
+            "tag": "ngantuk",
+            "patterns": [
                 "ngantuk",
                 "aku ngantuk",
                 "saya ngantuk",
                 "ngantuk sekali",
                 "Saya mengantuk"
             ],
-            "responses" : [
+            "responses": [
                 "kamu harus tidur",
                 "kamu butuh tidur",
                 "matikan hpmu lalu pergi tidur",
@@ -331,17 +353,16 @@
                 "Ayo segera tidur",
                 "Ayo tidur, masih ada hari esok yang menunggumu"
             ]
-
         },
         {
-            "tag" : "kaya",
-            "patterns" : [
+            "tag": "kaya",
+            "patterns": [
                 "bagaimana cara jadi kaya?",
                 "bagaimana bisa kaya?",
                 "cara menghasilkan uang dengan cepat",
                 "kayak mana jadi kaya"
             ],
-            "responses" :[
+            "responses": [
                 "menabung",
                 "main saham",
                 "main krepto",
@@ -354,14 +375,14 @@
             ]
         },
         {
-            "tag" : "pintar",
-            "patterns" :[
+            "tag": "pintar",
+            "patterns": [
                 "cara menjadi pintar",
                 "bagaimana supaya pintar?",
                 "kayak mana suapaya pintar",
                 "bagaimana biar pintar?"
             ],
-            "responses" :[
+            "responses": [
                 "belajar",
                 "mulailah dengan rajin belajar",
                 "mungkin kamu kuraang belajar",
@@ -369,15 +390,15 @@
             ]
         },
         {
-            "tag" :"nikah",
-            "patterns" :[
+            "tag": "nikah",
+            "patterns": [
                 "kapan saya nikah?",
                 "kapan aku nikah?",
                 "mau nikah",
                 "aku mau nikah",
                 "saya mau nikah"
             ],
-            "responses" :[
+            "responses": [
                 "kumpulkan uang dulu",
                 "nanti kalau ikram sudah punya uang",
                 "kamu harus mapan dulu",
@@ -390,8 +411,8 @@
             ]
         },
         {
-            "tag" : "biar ga insecure",
-            "patterns" :[
+            "tag": "biar ga insecure",
+            "patterns": [
                 "aku cantik tidak",
                 "saya cantik tidak",
                 "aku ganteng tidak",
@@ -399,7 +420,7 @@
                 "aku tamapan tidak",
                 "saya tampan tidak"
             ],
-            "responses" :[
+            "responses": [
                 "kamu membuatku terpana",
                 "bangettt",
                 "iyain aja xixi",
@@ -407,22 +428,22 @@
                 "lumayan",
                 "Cantik dan ganteng itu relatif",
                 "Tergantung",
-                "Hm..."
+                "Hm...",
                 "Iya, kamu selalu..."
             ]
         },
         {
-            "tag" : "cuaca",
-            "patterns" :[
+            "tag": "cuaca",
+            "patterns": [
                 "hari ini hujan tidak",
                 "hari ini hujan gak",
                 "hujan tidak",
                 "hujan gak",
                 "cuaca hari ini"
             ],
-            "responses" :[
+            "responses": [
                 "coba kamu cek ramalan cuaca hari ini",
-                "kata mbak Rara tidak hujan"
+                "kata mbak Rara tidak hujan",
                 "Coba cek di HP",
                 "Sepertinya tidak",
                 "Tidak tahu",
