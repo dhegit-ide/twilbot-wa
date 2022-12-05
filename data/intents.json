@@ -196,7 +196,7 @@
         {
             "tag": "malas",
             "patterns": ["malas", "aku malas", "saya malas"],
-            "responses": ["okedeh", "waduh...", "yah, bagaimana dong?"]
+            "responses": ["okedeh", "waduh...", "yah, bagaimana dong?","jagan malas", "malas terus", "rajinnya kapan"]
         },
         {
             "tag": "bosan",
@@ -364,9 +364,9 @@
             ],
             "responses": [
                 "menabung",
+                "hemat pangkal kaya",
                 "main saham",
                 "main krepto",
-                "judi-kata ikram :v",
                 "kerja",
                 "korupsi",
                 "kerja keras",
@@ -386,7 +386,8 @@
                 "belajar",
                 "mulailah dengan rajin belajar",
                 "mungkin kamu kuraang belajar",
-                "Berusahalah untuk konsisten belajar"
+                "Berusahalah untuk konsisten belajar",
+                "mungkin kamu kuraang belajar"
             ]
         },
         {
@@ -400,14 +401,15 @@
             ],
             "responses": [
                 "kumpulkan uang dulu",
-                "nanti kalau ikram sudah punya uang",
                 "kamu harus mapan dulu",
                 "Nunggu jodoh dulu",
                 "Jodoh sudah diatur",
                 "Perbaiki diri dulu untuk menikah itu bukan perkara sepele",
                 "Siapin mental dan fisik dulu",
                 "Jodohnya belum nongol",
-                "Sabar"
+                "Sabar",
+                "menikahlah jika kamu sudah merasa siap lahir batin",
+                "kamu harus mapan dulu"
             ]
         },
         {
@@ -417,7 +419,7 @@
                 "saya cantik tidak",
                 "aku ganteng tidak",
                 "saya ganteng tidak",
-                "aku tamapan tidak",
+                "aku tampan tidak",
                 "saya tampan tidak"
             ],
             "responses": [
@@ -448,6 +450,60 @@
                 "Sepertinya tidak",
                 "Tidak tahu",
                 "Hm...(berpikir)"
+            ]
+        },
+        {
+            "tag": "sakit",
+            "patterns" :[
+                "sakit",
+                "aku sakit",
+                "saya sakit",
+                "dia sakit"
+            ],
+            "responses":[
+                "cepat sembuh ya",
+                "minum obat dan istirahat",
+                "coba kedokter"
+            ]
+        },
+        {
+            "tag" : "Haus",
+            "patterns" :[
+                "haus",
+                "aku haus",
+                "saya haus"
+            ],
+            "responses":[
+                "minum",
+                "kamu harus minum",
+                "yang harus dilakukan adalah kamu harus minum"
+            ]
+        },
+        {
+            "tag": "sakit",
+            "patterns" :[
+                "sakit",
+                "aku sakit",
+                "saya sakit",
+                "dia sakit"
+            ],
+            "responses":[
+                "cepat sembuh ya",
+                "minum obat dan istirahat",
+                "coba kedokter"
+            ]
+        },
+        {
+            "tag" : "Haus",
+            "patterns" :[
+                "haus",
+                "aku haus",
+                "saya haus"
+            ],
+            "responses":[
+                "minum",
+                "kamu harus minum",
+                "yang harus dilakukan adalah kamu harus minum"
             ]
         }
     ]
