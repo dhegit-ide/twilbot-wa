@@ -131,7 +131,7 @@
         {
             "tag": "malas",
             "patterns": ["malas", "aku malas", "saya malas"],
-            "responses": ["okedeh", "waduh..."]
+            "responses": ["okedeh", "waduh...", "jagan malas", "malas terus, rajinnya kapan"]
         },
         {
             "tag": "bosan",
@@ -269,9 +269,9 @@
             ],
             "responses" :[
                 "menabung",
+                "hemat pangkal kaya",
                 "main saham",
                 "main krepto",
-                "judi-kata ikram :v",
                 "kerja",
                 "korupsi"
             ]
@@ -287,7 +287,7 @@
             "responses" :[
                 "belajar",
                 "mulailah dengan rajin belajar",
-                "mungkin ksmu kuraang belajar"
+                "mungkin kamu kuraang belajar"
             ]
         },
         {
@@ -301,7 +301,7 @@
             ],
             "responses" :[
                 "kumpulkan uang dulu",
-                "nanti kalau ikram sudah punya uang",
+                "menikahlah jika kamu sudah merasa siap lahir batin",
                 "kamu harus mapan dulu"
             ]
         },
@@ -335,6 +335,33 @@
             "responses" :[
                 "coba kamu cek ramalan cuaca hari ini",
                 "kata mbak Rara tidak hujan"
+            ]
+        },
+        {
+            "tag": "sakit",
+            "patterns" :[
+                "sakit",
+                "aku sakit",
+                "saya sakit",
+                "dia sakit"
+            ],
+            "responses":[
+                "cepat sembuh ya",
+                "minum obat dan istirahat",
+                "coba kedokter"
+            ]
+        },
+        {
+            "tag" : "Haus",
+            "patterns" :[
+                "haus",
+                "aku haus",
+                "saya haus"
+            ],
+            "responses":[
+                "minum",
+                "kamu harus minum",
+                "yang harus dilakukan adalah kamu harus minum"
             ]
         }
     ]
