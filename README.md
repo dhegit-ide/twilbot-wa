@@ -37,25 +37,12 @@ Ngrok ini cuma ubah server lokal `127.0.0` jadi server publik, bisa dibilang pen
 * folder `data` itu tempat skrip dialognya
 * folder `util` itu program supaya bisa digunakan `data/intents.json` di `main.py`
 * `main.py` itu file utama untuk buat fitur"nya
-* `coba.py` itu file untuk tes awal botnya, krna di kode baris 6-12 dan 14-15 hampirji sama di `main.py` kode baris 11-19 dan 61-62. *Kira-kira apa bedanya :"*
 
 # Cara tes botnya bekerja ato tidak
-## running coba.py
-* install library nya, buka terminal vscode, trus ketik `pip install flask numpy pandas scikit-learn`
-* klo error, coba install satu-satu, misal `pip install flask`
-* klo masih error, coba kirim di gb or *tanya stackoverflow :"*
-* klo berhasilmi, ketik `python coba.py` *enter*
-* kalo outputnya adami `Running on http://127.0.0.1:5000/` brarti berjalanmi itu
+## running main.py
+* install library nya, buka terminal vscode, trus ketik `pip install -r requirements.txt`
+* trus ketik `python main.py`, nanti outputnya `Running on http://127.0.0.1:5000/` artinya program sudah berjalan
 * buka cmd, ketik `ngrok http 5000`, trus copy link di forwading misal `https://c212-103-105-32-12.ap.ngrok.io`
 * WARNING: link yg di ngrok bisa saja berubah pas dijalankan ulang ngroknya
 * buka twilio, ke navigasi sebelah kiri > Develop > Settings > WhatsApp sandbox settings
 * ganti url di box WHEN A MESSAGE COMES IN jadi `link ngrok tadi/wasms`. Contoh: `https://c212-103-105-32-12.ap.ngrok.io/wasms`
-* wasms itu routenya spya terhubung ke bot wa *routenya bisa diliat di file coba.py baris 6*
-* klik `save`
-* di wa, chat bot yg kushare trus kirim`stop`
-* trus kirim kode joinnya *bisa dilliat di twilio, Sandbox Participants yg **join...** *
-* coba chat botnya lagi, klo direspon `helow` brarti berjalanmi kode yg file coba.py
-## running main.py
-* *samaji caranya di atas*, di terminal, tekan `ctrl+c` untuk hentikan program `python coba.py` yg tadi
-* trus ketik `python main.py`, outputnya adami `Running on http://127.0.0.1:5000/`
-* coba chat botnya sesuai tag/patterns di folder `data/intents.json`
