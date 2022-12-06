@@ -1,4 +1,4 @@
-# Referensi kode kalo mau tau penjelasan lengkapnya
+# Referensi kode
 * https://www.pragnakalp.com/create-whatsapp-bot-with-twilio-using-python-tutorial-with-examples/
 * https://youtu.be/sotu6YqPoY0
 * https://youtu.be/hW3zfd0mIfw
