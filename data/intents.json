@@ -196,7 +196,14 @@
         {
             "tag": "malas",
             "patterns": ["malas", "aku malas", "saya malas"],
-            "responses": ["okedeh", "waduh...", "yah, bagaimana dong?","jagan malas", "malas terus", "rajinnya kapan"]
+            "responses": [
+                "okedeh",
+                "waduh...",
+                "yah, bagaimana dong?",
+                "jagan malas",
+                "malas terus",
+                "rajinnya kapan"
+            ]
         },
         {
             "tag": "bosan",
@@ -454,26 +461,17 @@
         },
         {
             "tag": "sakit",
-            "patterns" :[
-                "sakit",
-                "aku sakit",
-                "saya sakit",
-                "dia sakit"
-            ],
-            "responses":[
+            "patterns": ["sakit", "aku sakit", "saya sakit", "dia sakit"],
+            "responses": [
                 "cepat sembuh ya",
                 "minum obat dan istirahat",
                 "coba kedokter"
             ]
         },
         {
-            "tag" : "Haus",
-            "patterns" :[
-                "haus",
-                "aku haus",
-                "saya haus"
-            ],
-            "responses":[
+            "tag": "Haus",
+            "patterns": ["haus", "aku haus", "saya haus"],
+            "responses": [
                 "minum",
                 "kamu harus minum",
                 "yang harus dilakukan adalah kamu harus minum"
@@ -481,29 +479,57 @@
         },
         {
             "tag": "sakit",
-            "patterns" :[
-                "sakit",
-                "aku sakit",
-                "saya sakit",
-                "dia sakit"
-            ],
-            "responses":[
+            "patterns": ["sakit", "aku sakit", "saya sakit", "dia sakit"],
+            "responses": [
                 "cepat sembuh ya",
                 "minum obat dan istirahat",
                 "coba kedokter"
             ]
         },
         {
-            "tag" : "Haus",
-            "patterns" :[
-                "haus",
-                "aku haus",
-                "saya haus"
-            ],
-            "responses":[
+            "tag": "Haus",
+            "patterns": ["haus", "aku haus", "saya haus"],
+            "responses": [
                 "minum",
                 "kamu harus minum",
                 "yang harus dilakukan adalah kamu harus minum"
+            ]
+        },
+        {
+            "tag": "game",
+            "patterns": ["game", "permainan", "main"],
+            "responses": ["Main suit? ketik suit"]
+        },
+        {
+            "tag": "suit",
+            "patterns": ["suit", "Suit"],
+            "responses": ["Silahkan pilih batu, gunting atau kertas!"]
+        },
+        {
+            "tag": "rock",
+            "patterns": ["Batu", "batu"],
+            "responses": [
+                "Batu, Anda seri!",
+                "Gunting, Anda menang!",
+                "Kertas, Anda kalah"
+            ]
+        },
+        {
+            "tag": "paper",
+            "patterns": ["Kertas", "kertas"],
+            "responses": [
+                "Batu, Anda menang!",
+                "Gunting, Anda kalah",
+                "Kertas, Anda seri!"
+            ]
+        },
+        {
+            "tag": "scisor",
+            "patterns": ["Gunting", "gunting"],
+            "responses": [
+                "Batu, Anda kalah",
+                "Gunting, Anda seri!",
+                "Kertas, Anda menang!"
             ]
         }
     ]
