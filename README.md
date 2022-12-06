@@ -23,9 +23,10 @@ Ngrok ini cuma ubah server lokal `127.0.0` jadi server publik, bisa dibilang pen
 
 # Struktur folder
 * kalo adami folder `twilbot-wa`, buka foldernya di vscode
-* isinya itu `data`, `util`, `main.py`, `requirements.txt`
+* isinya itu `data`, `util`, `.env`, `main.py`, `requirements.txt`
 * folder `data` itu tempat skrip dialognya
 * folder `util` itu program supaya bisa digunakan `data/intents.json` di `main.py`
+* `.env` itu file agar program berjalan ketika code sudah dideploy *CMIIW*
 * `main.py` itu file utama untuk buat fitur"nya
 * `requirements.txt` itu daftar modul/library yang harus diinstall
 
