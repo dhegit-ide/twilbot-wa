@@ -60,7 +60,6 @@ def bot():
     # save model
     with open("model_chatbot_pkl", "wb") as model_file:
         pickle.dump(pipeline, model_file)
-
     # END
 
 
