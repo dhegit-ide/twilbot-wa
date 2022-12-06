@@ -9,7 +9,7 @@
 * akun twilio
 
 # Setup ngrok
-Ngrok ini cuma ubah server lokal `127.0.0` jadi server publik, bisa dibilang pengganti domain, tapi mungkin programnya tidak auto run, misal dihentikan eksekusi programnya nanti botnya juga bakal tidak berkerja. Itumi butuh ki **domain + hosting**, domain itu urlnya, hosting itu tempat upload kode programnya supaya auto run programnya *CMIIW*.
+Ngrok ini cuma ubah server lokal `127.0.0` jadi server publik, bisa dibilang pengganti domain, tapi mungkin programnya tidak auto run, misal dihentikan eksekusi programnya nanti botnya juga bakal tidak berkerja. Jadi, mungkin butuh **domain + hosting**, domain itu urlnya, hosting itu tempat upload kode programnya supaya auto run programnya *CMIIW*.
 * download ngrok di `https://ngrok.com/download`, trs unzip, trs simpan foldernya di `C:\`
 * buka folder ngrok, kalo isinya cuma `ngrok.exe` *brarti cocokmi itu*
 * copy path foldernya. Contoh: `C:\ngrok-v3-stable-windows-amd64`
