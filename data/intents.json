@@ -505,6 +505,33 @@
                 "kamu harus minum",
                 "yang harus dilakukan adalah kamu harus minum"
             ]
+        },
+        //games
+        {
+            "tag": "game",
+            "patterns": ["game", "permainan", "main"],
+            "responses": ["Main suit? ketik suit"]
+        },
+        {
+            "tag": "suit",
+            "patterns": ["suit", "Suit"],
+            "responses": ["Silahkan pilih batu, gunting atau kertas!"]
+        },
+        {
+            "tag": "rock",
+            "patterns": ["Batu","batu"],
+            "responses": ["Batu, Anda seri!","Gunting, Anda menang!", "Kertas, Anda kalah"]
+        },
+        {
+            "tag": "paper",
+            "patterns": ["Kertas","kertas"],
+            "responses": ["Batu, Anda menang!","Gunting, Anda kalah", "Kertas, Anda seri!"]
+        },
+        {
+            "tag": "scisor",
+            "patterns": ["Gunting","gunting"],
+            "responses": ["Batu, Anda kalah","Gunting, Anda seri!", "Kertas, Anda menang!"]
         }
+        
     ]
 }
