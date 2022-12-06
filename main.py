@@ -11,7 +11,7 @@ from util import JSONParser
 app = Flask(__name__)  
 
 @app.route("/")
-def hello_world():
+def redirect_wa():
     return redirect('https://wa.me/14155238886?text=join%20butter-journey', code=302)
 
 @app.route("/wasms", methods=['POST'])
