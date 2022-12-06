@@ -476,24 +476,6 @@
             ]
         },
         {
-            "tag": "sakit",
-            "patterns": ["sakit", "aku sakit", "saya sakit", "dia sakit"],
-            "responses": [
-                "cepat sembuh ya",
-                "minum obat dan istirahat",
-                "coba kedokter"
-            ]
-        },
-        {
-            "tag": "Haus",
-            "patterns": ["haus", "aku haus", "saya haus"],
-            "responses": [
-                "minum",
-                "kamu harus minum",
-                "yang harus dilakukan adalah kamu harus minum"
-            ]
-        },
-        {
             "tag": "game",
             "patterns": ["game", "games", "permainan", "main"],
             "responses": ["Main suit? ketik suit"]
@@ -532,12 +514,55 @@
         },
         {
             "tag": "pantun",
-            "patterns": ["berikan pantun", "pantun dong", "bisa pantun ga?"],
+            "patterns": [
+                "berikan pantun",
+                "pantun dong",
+                "bisa pantun ga?",
+                "Pantun",
+                "pantun",
+                "mau pantun",
+                "pantun aja"
+            ],
             "responses": [
                 "Beli emas ke tukang bodong\nEmasnya palsu murah harganya\nSaat hidup jangan suka bengong\nNanti jadi terlihat bodohnya",
                 "Sudah tua mulai rentan\nSukanya main ke tempat lelang\nJangan suka mikir mantan\nLebih baik ingat utang",
                 "Makan roti penuh semut\nSemut-nya banyak bagai selaput\nSikapmu baik buatku salut\nTapi kenapa hobimu kentut",
-                "Bakal hajatan di rumah Pak Somat\nTempatnya di sebelah lumbung padi\nKurasa bau menyengat\nTernyata baumu yang belum mandi"
+                "Bakal hajatan di rumah Pak Somat\nTempatnya di sebelah lumbung padi\nKurasa bau menyengat\nTernyata baumu yang belum mandi",
+                "Jalan jalan ke sulawesi\nJangan lupa beli coto\nJika suka sendiri\nApakah tidak lelah jadi jomblo? hehehe canda",
+                "Buah pisang buah tomat\nDisimpan di dalam lumbung padi\nPantas tercium bau menyengat\nRupanya kau belum mandi. xixixixi",
+                "Bread is roti\nShadow is bayang\nBefore you mati\nBetter you sembahyang"
+            ]
+        },
+        {
+            "tag": "Curhat",
+            "patterns": [
+                "curhat",
+                "mau curhat",
+                "aku mau curhat",
+                "lagi mau curhat nih",
+                "curhat dong"
+            ],
+            "responses": [
+                "silahkan cerita aja, ada aku yang bakal dengerin",
+                "apasih yang nggak buat kamu, monggo diceritakan",
+                "aku selalu disini untukmu :)",
+                "cerita aja, mungkin aku bisa membuatmu merasa lebih baik"
+            ]
+        },
+        {
+            "tag": "Hibur",
+            "patterns": [
+                "hibur",
+                "hibur dong",
+                "hibur aku",
+                "hibur saya",
+                "hibur aku dong",
+                "hiburka dulu"
+            ],
+            "responses": [
+                "bisa, mau dengar pantun atau main game?",
+                "dengan senang hati saya menghibur kamu, pilih aja mau pantun atau main game?",
+                "kalo kamu mau pantun atau main game, cukup ketik pantun atau game"
             ]
         }
     ]
