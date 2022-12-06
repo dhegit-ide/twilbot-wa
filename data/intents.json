@@ -37,6 +37,7 @@
         {
             "tag": "pembuat",
             "patterns": [
+                "Siapa pengembangmu?",
                 "Kamu dibuat oleh siapa?",
                 "Siapa yang membuatmu?",
                 "Lo dibuat sama siapa?",
@@ -144,10 +145,7 @@
                 "apa kemampuan lo?",
                 "selain itu?"
             ],
-            "responses": [
-                "Kakak bisa tanya-tanya nama aku dan apa yang bisa aku lakukan",
-                "Saat ini aku masih dalam proses pengembangan jadi yang bisa aku lakukan masih sedikit. Kakak bisa tanya-tanya nama aku dan apa yang bisa aku lakukan."
-            ]
+            "responses": ["Coba ketik <berikan pantun> atau <mainkan game>"]
         },
         {
             "tag": "pujian",
@@ -497,7 +495,7 @@
         },
         {
             "tag": "game",
-            "patterns": ["game", "permainan", "main"],
+            "patterns": ["game", "games", "permainan", "main"],
             "responses": ["Main suit? ketik suit"]
         },
         {
@@ -530,6 +528,16 @@
                 "Batu, Anda kalah",
                 "Gunting, Anda seri!",
                 "Kertas, Anda menang!"
+            ]
+        },
+        {
+            "tag": "pantun",
+            "patterns": ["berikan pantun", "pantun dong", "bisa pantun ga?"],
+            "responses": [
+                "Beli emas ke tukang bodong\nEmasnya palsu murah harganya\nSaat hidup jangan suka bengong\nNanti jadi terlihat bodohnya",
+                "Sudah tua mulai rentan\nSukanya main ke tempat lelang\nJangan suka mikir mantan\nLebih baik ingat utang",
+                "Makan roti penuh semut\nSemut-nya banyak bagai selaput\nSikapmu baik buatku salut\nTapi kenapa hobimu kentut",
+                "Bakal hajatan di rumah Pak Somat\nTempatnya di sebelah lumbung padi\nKurasa bau menyengat\nTernyata baumu yang belum mandi"
             ]
         }
     ]
