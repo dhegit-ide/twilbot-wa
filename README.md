@@ -29,7 +29,7 @@ Ngrok ini cuma ubah server lokal `127.0.0` jadi server publik, bisa dibilang pen
 * `main.py` itu file utama untuk buat fitur"nya
 * `requirements.txt` itu daftar modul/library yang harus diinstall
 
-# Cara tes botnya bekerja atau tidak
+# Uji bot
 ## running main.py
 * install library nya, buka terminal vscode, trus ketik `pip install -r requirements.txt`
 * trus ketik `python main.py`, nanti outputnya `Running on http://127.0.0.1:5000/` artinya program sudah berjalan
