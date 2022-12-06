@@ -44,5 +44,6 @@ Ngrok ini cuma ubah server lokal `127.0.0` jadi server publik, bisa dibilang pen
 * trus ketik `python main.py`, nanti outputnya `Running on http://127.0.0.1:5000/` artinya program sudah berjalan
 * buka cmd, ketik `ngrok http 5000`, trus copy link di forwading misal `https://c212-103-105-32-12.ap.ngrok.io`
 * WARNING: link yg di ngrok bisa saja berubah pas dijalankan ulang ngroknya
+* buka link url nya, nanti akan diarahkan ke whatsapp
 * buka twilio, ke navigasi sebelah kiri > Develop > Settings > WhatsApp sandbox settings
 * ganti url di box WHEN A MESSAGE COMES IN jadi `link ngrok tadi/wasms`. Contoh: `https://c212-103-105-32-12.ap.ngrok.io/wasms`
