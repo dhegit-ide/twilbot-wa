@@ -4,9 +4,10 @@
 * https://youtu.be/hW3zfd0mIfw
 
 
-# Persyaratan untuk jalankan kodenya
-* sudah terinstall python dan setup environmentnya
-* sambungkan akun github ke vscode *di vscode, kiri bawah klik ikon user trs `sign in` trs pilih github*
+# Requirements
+* python
+* ngrok
+* akun twilio
 
 # Persiapan
 ## Setup ngrok
